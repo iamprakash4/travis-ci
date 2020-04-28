@@ -13,9 +13,9 @@ install:
   # Install dependencies for tests
   - npm install
 
-before_script:
-  # Start server and client for tests
-  - npm test
+# before_script:
+#   # Start server and client for tests
+#   - npm test
 
 script:
   # Run tests
