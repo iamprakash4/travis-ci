@@ -11,7 +11,7 @@ services:
 
 install:
   # Install dependencies for tests
-  - npm ci
+  - npm install
 
 before_script:
   # Start server and client for tests
